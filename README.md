@@ -13,6 +13,6 @@ Dependencies:
      This script needs Mechanize and BS4 to work. These can be installed by following steps:
     
     • Navigate to the directory by: cd AstraTracker
-    • Then run: chmod +x install.sh & ./install.sh
+    • Then run: chmod +x dependencies.sh && ./dependencies.sh
     • Enter the password when prompted!
     
