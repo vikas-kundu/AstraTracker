@@ -1,8 +1,8 @@
 clear
 echo "******* AstraTracker install in Progress ********"
 echo ""
-echo "=====> Installing Beautiful Soup "
-sudo apt install python-beautifulsoup 
+echo "=====> Installing BS4 "
+sudo apt install python-bs4 
 echo "=====> Installing Mechanize "
 sudo apt install python-mechanize 
 echo "=====> Installing Astra Tracker "
