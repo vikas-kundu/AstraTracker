@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
 import time
 import re
@@ -110,7 +110,7 @@ br.addheaders=[('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.
 
 #print the remaining pages containing articles
 print bcolors.GREEN
-name=str(raw_input("Enter a user name(i.e. vikas):"))
+name=str(raw_input("Enter the first word of your UserName on Astra site (i.e. UserName is vikas kundu so first word is vikas):"))
 link="https://www.getastra.com/blog/author/"
 final_link=link+name
 all_author_pages.append(final_link)
@@ -135,7 +135,7 @@ for i in article_name:
 # Printing all the values from the final dictionary
 for key,val in final.items():    
 	print ("\n"+bcolors.GREEN+key+" : "+bcolors.YELLOW+val+" Views"+bcolors.ENDC)
-	#time.sleep(1)
+	time.sleep(1)
 	
 
 # Scrapping Diagnostics	
