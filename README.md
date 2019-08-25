@@ -16,3 +16,6 @@ Dependencies:
     • Then run: chmod +x dependencies.sh && ./dependencies.sh
     • Enter the password when prompted!
     
+For Windows choose the script: AstraTracker.py  
+
+For Linux choose the script: astra.py
