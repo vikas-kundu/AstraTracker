@@ -121,16 +121,17 @@ print("                    *****Author Pages*******\n")
 for i in all_author_pages:
     print(bcolors.YELLOW+"\n"+bcolors.GREEN+i+bcolors.ENDC)
     get_titles(i)
-print("\n                  *********END************")
+print("\n                  *********END************ \n Please be patient discovering your articles! \n")
     
 
 #Gets views using Title name and prints title name
 for i in article_name:
         title_view_scrapper(i)
         strn= utf_filter(i)
-        print("\n"+bcolors.YELLOW+"Title of Article: "+bcolors.BLUE+strn+bcolors.ENDC)
+        print("\n"+bcolors.YELLOW+"Title of the Article discovered: "+bcolors.BLUE+strn+bcolors.ENDC)
 	
     
+print(" \n Now printing your Article Views \n ")
 # Printing all the values from the final dictionary
 for key,val in final.items():    
 	print ("\n"+bcolors.GREEN+key+" : "+bcolors.YELLOW+val+" Views"+bcolors.ENDC)
