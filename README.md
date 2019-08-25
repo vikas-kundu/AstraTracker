@@ -1,6 +1,10 @@
 # AstraTracker
 A simple script to track their writeups for Astra writers.
 
+>For Windows choose the script: AstraTracker.py  
+
+>For Linux choose the script: astra.py
+
 
 How to use ?
 
@@ -15,7 +19,3 @@ Dependencies:
     • Navigate to the directory by: cd AstraTracker
     • Then run: chmod +x dependencies.sh && ./dependencies.sh
     • Enter the password when prompted!
-    
-For Windows choose the script: AstraTracker.py  
-
-For Linux choose the script: astra.py
